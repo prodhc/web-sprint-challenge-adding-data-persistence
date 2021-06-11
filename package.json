@@ -9,6 +9,7 @@
 		"server": "nodemon index.js",
 		"migrate": "npx knex migrate:up",
 		"rollback": "npx knex migrate:down",
+    "seed": "knex seed:run",
     "save": "git add . && git commit -m 'wip' && git push -u origin secoya-wood"
   },
   "repository": {
